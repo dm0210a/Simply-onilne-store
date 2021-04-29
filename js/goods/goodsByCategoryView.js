@@ -4,7 +4,7 @@ export default {
     render(data, cartPrice) {
         return (`
         <div class="content_block">
-        <button onclick="window.history.back()">BACK</button>
+        <button id="goBack">BACK</button>
             <div class="title_block">
                 <h1>${data.category_name[0].name}</h1>
             </div>
@@ -22,15 +22,15 @@ export default {
         <div class="category_block">
         ${data.goods.map((element, index) => (
             ` 
-            <div class="category_item">
-                <a href="#category/${element.id}">
+            <div class="category_item" data-id="${element.id}">
+               
                     <div class="category_image">
                         <img src="${element.icon}" alt="${element.title}" />
                     </div>
                     <div class="catergory_title">
-                        <span>${element.title}</span>
+                        <span>${element.title}</span> <div class="minus" data-id="${element.id}">-</div><span class="number">0</span><div class="plus" data-id="${element.id}">+</div>  
                     </div>
-                </a>
+               
             </div>
             `
         )).join('')}

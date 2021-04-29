@@ -1,7 +1,7 @@
 import API from '../api/apiCalls.js';
-import gdView from '../goods/goodsByCategoryView.js';
 import View from '../categories/view.js'
 import * as constans from '../utils/constans.js';
+import GoodsPage from '../goods/goodByCategory.js';
 export default{
     async mainRoute() {
         
@@ -10,7 +10,9 @@ export default{
         document.querySelector('#main').innerHTML = View.render(json,'400');
     },
     async categoryRoute(params){
-        const json = await API.getGoodsByCategory(constans.GET_GOODS,params.id);
-        document.querySelector('#main').innerHTML = gdView.render(json,'400');
+        const goodsByCategory = await API.getGoodsByCategory(constans.GET_GOODS,params.id);
+        GoodsPage.setData(goodsByCategory);
+        GoodsPage.render();
+        
     }
 }
