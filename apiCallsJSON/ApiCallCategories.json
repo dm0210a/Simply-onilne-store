@@ -1,0 +1,149 @@
+{
+
+    "categories": [
+        {
+            "id": "category1",
+            "title": "Category1",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category2",
+            "title": "Category2",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category3",
+            "title": "Category3",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category4",
+            "title": "Category4",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category5",
+            "title": "Category5",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category6",
+            "title": "Category6",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category7",
+            "title": "Category7",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category8",
+            "title": "Category8",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category9",
+            "title": "Category9",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category10",
+            "title": "Category10",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category11",
+            "title": "Category11",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category12",
+            "title": "Category12",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category13",
+            "title": "Category13",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category14",
+            "title": "Category14",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category15",
+            "title": "Category15",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category16",
+            "title": "Category16",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category17",
+            "title": "Category17",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category18",
+            "title": "Category18",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category19",
+            "title": "Category19",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category20",
+            "title": "Category20",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category21",
+            "title": "Category21",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category22",
+            "title": "Category22",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category23",
+            "title": "Category23",
+            "icon": "./assets/img/img1.png"
+           
+        },
+        {
+            "id": "category24",
+            "title": "Category24",
+            "icon": "./assets/img/img1.png"
+           
+        }
+    ]
+}

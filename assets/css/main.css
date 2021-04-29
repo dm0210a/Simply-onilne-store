@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.color_row_top{
+    width: 100vw;
+    height: 10px;
+    background-image: url('../img/color_row.png');
+}
+.color_row_bottom{
+    width: 100vw;
+    height: 10px;
+    background-image: url('../img/color_row.png');
+    position: absolute;
+    bottom:0px;
+}
+
+.content_block{
+    display: flex;
+    margin-top: 30px;
+    padding-left: 8.8vw;
+    padding-right: 3.3vw;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.title_block h1{
+    font-family: 'Segoe UI Light';
+    font-weight: 300;
+    font-size: 3.3em;
+    margin: 0px;
+}
+.cart{
+    width: 280px;
+    height: 60px;
+    background-color: #d9644a;
+    color:#fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.cart_block{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 20px;
+    
+}
+.cart_price{
+    font-family: 'Segoe UI Regular';
+    text-align: right;
+    width: 100%;
+    padding-right: 30px;
+    font-size: 1.7em;
+}
+.cart:hover{
+    background-color: #d9644a8c;
+}
+
+
+.category_block{
+    margin-top: 39px;
+    margin-left: 8.8vw;
+    width: calc(100% - 8.8vw);
+    height: 605px;
+    overflow: auto;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+.category_block::-webkit-scrollbar{ 
+    width: 0; 
+    height: 45px;
+    
+}
+.category_item{
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.catergory_title{
+    position: absolute;
+    bottom: 0px;
+    height: 40px;
+    background: rgb(255 255 255 / 80%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.category_image{
+    width: 100%;
+    height: 100%;
+}
+.category_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.catergory_title span{
+    color:#010101;
+    font-size: 1.3em;
+    font-family: 'Segoe UI Regular';
+}
+.category_item:hover{
+   opacity: 0.8;
+}
+
+.category_item:nth-child(1){
+    height: 370px;
+    width: 360px;
+}
+.category_item:nth-child(2){
+    height: 180px;
+    width: 360px;
+    margin-bottom: 0px;
+}
+.category_item:nth-child(3){
+    height: 180px;
+    width: 230px;
+   
+}
+.category_item:nth-child(4){
+    height: 180px;
+    width: 230px;
+    
+}
+.category_item:nth-child(5){
+    height: 180px;
+    width: 230px;
+    margin-bottom: 0px;
+}
+.category_item:nth-child(6){
+    height: 180px;
+    width: 230px;
+    
+}
+.category_item:nth-child(7){
+    height: 370px;
+    width: 230px;
+    margin-bottom: 0px;
+}
+.category_item:nth-child(8){
+    height: 180px;
+    width: 470px;
+   
+}
+.category_item:nth-child(9){
+    height: 180px;
+    width: 230px;
+   
+}
+.category_item:nth-child(10){
+    height: 180px;
+    width: 230px;
+    margin-bottom: 0px;
+}
+.category_item:nth-child(11){
+    height: 180px;
+    width: 230px;
+    top:190px;
+    right: 240px;   
+}
+.category_item:nth-child(12){
+    height: 180px;
+    width: 230px;
+    top:190px;
+    right: 240px;   
+}
+.category_item:nth-child(13){
+    height: 370px;
+    width: 360px;
+    right: 240px;  
+}
+.category_item:nth-child(14){
+    height: 180px;
+    width: 360px;
+    margin-bottom: 0px;
+    right: 240px;  
+}
+.category_item:nth-child(15){
+    height: 180px;
+    width: 230px;
+    right: 240px;  
+}
+.category_item:nth-child(16){
+    height: 180px;
+    width: 230px;
+    right: 240px;  
+}
+.category_item:nth-child(17){
+    height: 180px;
+    width: 230px;
+    margin-bottom: 0px;
+    right: 240px;  
+}
+.category_item:nth-child(18){
+    height: 180px;
+    width: 230px;
+    right: 240px;  
+}
+.category_item:nth-child(19){
+    height: 370px;
+    width: 230px;
+    margin-bottom: 0px;
+    right: 240px;  
+}
+.category_item:nth-child(20){
+    height: 180px;
+    width: 470px;
+    right: 240px;  
+}
+.category_item:nth-child(21){
+    height: 180px;
+    width: 230px;
+    right: 240px;  
+}
+.category_item:nth-child(22){
+    height: 180px;
+    width: 230px;
+    margin-bottom: 0px;
+    right: 240px;  
+}
+.category_item:nth-child(23){
+    height: 180px;
+    width: 230px;
+    top:190px;
+    right: 480px;   
+}
+.category_item:nth-child(24){
+    height: 180px;
+    width: 230px;
+    top:190px;
+    right: 480px;   
+}

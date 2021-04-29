@@ -1,0 +1,145 @@
+{
+
+    "goods": [
+        {
+            "id": "1",
+            "title": "Tovar 1",
+            "icon": "",
+            "category":"category1"
+           
+        },
+        {
+            "id": "2",
+            "title": "Tovar 2",
+            "icon": "",
+            "category":"category2"
+           
+        },
+        {
+            "id": "3",
+            "title": "Tovar 3",
+            "icon": "",
+            "category":"category3"
+           
+        },
+        {
+            "id": "4",
+            "title": "Tovar 4",
+            "icon": "",
+            "category":"category4"
+           
+        },
+        {
+            "id": "5",
+            "title": "Tovar 5",
+            "icon": "",
+            "category":"category5"
+           
+        },
+        {
+            "id": "6",
+            "title": "Tovar 6",
+            "icon": "",
+            "category":"category6"
+           
+        },
+        {
+            "id": "7",
+            "title": "Tovar 7",
+            "icon": "",
+            "category":"category7"
+           
+        },
+        {
+            "id": "8",
+            "title": "Tovar 8",
+            "icon": "",
+            "category":"category8"
+           
+        },
+        {
+            "id": "9",
+            "title": "Tovar 9",
+            "icon": "",
+            "category":"category9"
+           
+        },
+        {
+            "id": "10",
+            "title": "Tovar 10",
+            "icon": "",
+            "category":"category10"
+           
+        },
+        {
+            "id": "11",
+            "title": "Tovar 11",
+            "icon": "",
+            "category":"category11"
+           
+        },
+        {
+            "id": "12",
+            "title": "Tovar 12",
+            "icon": "",
+            "category":"category12"
+           
+        },
+        {
+            "id": "13",
+            "title": "Tovar 13",
+            "icon": "",
+            "category":"category13"
+           
+        },
+        {
+            "id": "14",
+            "title": "Tovar 14",
+            "icon": "",
+            "category":"category14"
+           
+        },
+        {
+            "id": "15",
+            "title": "Tovar 15",
+            "icon": "",
+            "category":"category15"
+           
+        },
+        {
+            "id": "16",
+            "title": "Tovar 16",
+            "icon": "",
+            "category":"category16"
+           
+        },
+        {
+            "id": "17",
+            "title": "Tovar 17",
+            "icon": "",
+            "category":"category17"
+           
+        },
+        {
+            "id": "18",
+            "title": "Tovar 18",
+            "icon": "",
+            "category":"category18"
+           
+        },
+        {
+            "id": "19",
+            "title": "Tovar 19",
+            "icon": "",
+            "category":"category19"
+           
+        },
+        {
+            "id": "20",
+            "title": "Tovar 20",
+            "icon": "",
+            "category":"category20"
+           
+        }
+    ]
+}
