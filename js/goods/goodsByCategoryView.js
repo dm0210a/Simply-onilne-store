@@ -1,9 +1,12 @@
 export default {
-    render(data,cartPrice) {
+ 
+
+    render(data, cartPrice) {
         return (`
         <div class="content_block">
+        <button onclick="window.history.back()">BACK</button>
             <div class="title_block">
-                <h1>Shopping Cart — Make Purchases Now!</h1>
+                <h1>${data.category_name[0].name}</h1>
             </div>
             <div class="cart">
                 <div class="cart_block">
