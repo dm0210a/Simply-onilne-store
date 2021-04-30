@@ -20,7 +20,7 @@ export default {
             </div>
         </div>
         <div class="category_block">
-        ${data.goods.map((element, index) => (
+        ${data.products.map((element, index) => (
             ` 
             <div class="category_item" data-id="${element.id}">
                

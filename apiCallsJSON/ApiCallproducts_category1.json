@@ -5,7 +5,7 @@
         }
     ],
 
-    "goods": [
+    "products": [
         {
             "id": "1",
             "title": "Tovar 1",

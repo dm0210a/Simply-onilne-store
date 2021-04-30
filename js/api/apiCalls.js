@@ -13,7 +13,7 @@ export default {
     getCategories(request) {
         return this.callAPI(`../apiCallsJSON/${request}.json`);
     },
-    getGoodsByCategory(request, params) {
+    getproductsByCategory(request, params) {
         return this.callAPI(`../apiCallsJSON/${request}_${params}.json`);
     }
 };
