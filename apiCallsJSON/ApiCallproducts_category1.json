@@ -10,70 +10,80 @@
             "id": "1",
             "title": "Tovar 1",
             "icon": "",
-            "category":"category1"
+            "category":"category1",
+            "price":"100"
            
         },
         {
             "id": "2",
             "title": "Tovar 2",
             "icon": "",
-            "category":"category1"
+            "category":"category1",
+            "price":"100"
            
         },
         {
             "id": "3",
             "title": "Tovar 3",
             "icon": "",
-            "category":"category1"
+            "category":"category1",
+            "price":"100"
            
         },
         {
             "id": "4",
             "title": "Tovar 4",
             "icon": "",
-            "category":"category1"
+            "category":"category1",
+            "price":"100"
            
         },
         {
             "id": "5",
             "title": "Tovar 5",
             "icon": "",
-            "category":"category1"
+            "category":"category1",
+            "price":"100"
            
         },
         {
             "id": "6",
             "title": "Tovar 6",
             "icon": "",
-            "category":"category1"
+            "category":"category1",
+            "price":"100"
            
         },
         {
             "id": "7",
             "title": "Tovar 7",
             "icon": "",
-            "category":"category1"
+            "category":"category1",
+            "price":"100"
            
         },
         {
             "id": "8",
             "title": "Tovar 8",
             "icon": "",
-            "category":"category1"
+            "category":"category1",
+            "price":"100"
            
         },
         {
             "id": "9",
             "title": "Tovar 9",
             "icon": "",
-            "category":"category1"
+            "category":"category1",
+            "price":"100"
            
         },
         {
             "id": "10",
             "title": "Tovar 10",
             "icon": "",
-            "category":"category1"
+            "category":"category1",
+            "price":"100"
            
         }
     ]

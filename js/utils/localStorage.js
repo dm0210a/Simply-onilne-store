@@ -1,27 +1,11 @@
-export function addToStorageElement(element, quantity) {
-    const num = getFromStorageElement(element);
-    if (num) {
-        let quantity = parseInt(num);
-        localStorage.setItem(element, ++quantity)
-    } else {
-        localStorage.setItem(element, quantity)
+export default {
+    setToStorage(key, value) {
+        localStorage.setItem(key, value);
+    },
+    getFromStorage(key) {
+        return localStorage.getItem(key);
+    },
+    deleteAll() {
+        localStorage.clear();
     }
-
-}
-export function deleteFromStorageElement(element) {
-    const num = getFromStorageElement(element);
-    if (num <= 1) {
-        localStorage.removeItem(element)
-    } else {
-        let quantity = parseInt(num);
-        localStorage.setItem(element, --quantity)
-
-    }
-
-}
-export function getFromStorageElement(element) {
-    return localStorage.getItem(element);
-}
-export function deleteAll() {
-    localStorage.clear();
 }

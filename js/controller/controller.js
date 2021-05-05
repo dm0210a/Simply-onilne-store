@@ -1,7 +1,7 @@
 import API from '../api/apiCalls.js';
 import View from '../categories/view.js'
 import * as constans from '../utils/constans.js';
-import productsPage from '../products/productByCategory.js';
+import productsPage from '../products/productsByCategory.js';
 export default{
     async mainRoute() {
         

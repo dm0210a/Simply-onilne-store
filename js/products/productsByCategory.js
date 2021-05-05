@@ -1,21 +1,20 @@
 import View from './productsByCategoryView.js';
-import * as Utils from '../utils/utils.js'
+import Product from './productsFunctions.js';
 
 const mainBlock = document.querySelector('#main');
-let products = [];
-let storage = [];
+let arrayProducts = [];
 
 
 
 
 export default {
     setData(newCategoryproducts) {
-        products = newCategoryproducts;
+        arrayProducts = newCategoryproducts;
     },
 
     render() {
 
-        mainBlock.innerHTML = View.render(products, '400');
+        mainBlock.innerHTML = View.render(arrayProducts, '400');
 
         const goBack = mainBlock.querySelector('#goBack');
         goBack.addEventListener('click', () => {
@@ -23,9 +22,8 @@ export default {
         })
 
 
-        Utils.plusToCartInproducts(products);
-        Utils.minusToCartInproducts();
-
+        Product.plusProduct(arrayProducts);
+        
         
         
 
