@@ -36,7 +36,7 @@ export default {
         <div class="category_block product_block">
         ${data.products.map((element, index) => (
             ` 
-            <div class="category_item ${existQuantity(element) ? 'productInCart' : ''}" data-id="${element.id}">
+            <div class="category_item1 ${existQuantity(element) ? 'productInCart' : ''}" data-id="${element.id}">
                
                     <div class="category_image ">
                         <img src="${element.icon}" alt="${element.title}" />

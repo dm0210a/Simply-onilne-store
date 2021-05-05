@@ -14,7 +14,7 @@ export default {
 
     render() {
 
-        mainBlock.innerHTML = View.render(arrayProducts, '400');
+        mainBlock.innerHTML = View.render(arrayProducts);
 
         const goBack = mainBlock.querySelector('#goBack');
         goBack.addEventListener('click', () => {
