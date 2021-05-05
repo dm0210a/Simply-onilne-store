@@ -23,6 +23,7 @@ export default {
 
 
         Product.plusProduct(arrayProducts);
+        Product.minusProduct(arrayProducts);
         
         
         

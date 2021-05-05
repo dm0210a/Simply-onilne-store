@@ -7,5 +7,8 @@ export default {
     },
     deleteAll() {
         localStorage.clear();
+    },
+    deleteFromStorage(key) {
+        localStorage.removeItem(key)
     }
 }

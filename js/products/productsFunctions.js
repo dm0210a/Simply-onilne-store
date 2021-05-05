@@ -55,6 +55,22 @@ function setCategoryToStorage(name, hash) {
     }
 }
 
+function deleteCategoryFromStorage(hash) {
+    let existingCategories = JSON.parse(STORAGE.getFromStorage('categories_in_cart'));
+
+    if (existingCategories) {
+
+        for (let i = 0; i < existingCategories.length; i++) {
+            if (existingCategories[i].hash == hash) {
+                existingCategories.splice(i, 1);
+                break;
+            }
+        }
+        STORAGE.setToStorage('categories_in_cart', JSON.stringify(existingCategories));
+    }
+
+}
+
 export default {
     getProductQuantity(id, category) {
         let arrayProducts = JSON.parse(STORAGE.getFromStorage(category));
@@ -85,6 +101,27 @@ export default {
 
         Cart.setCartPrice(Cart.plusCartPrice(parseInt(currentProduct.price)));
     },
+    minusCurrentProductFromStorageCart(currentProduct) {
+        if (STORAGE.getFromStorage(currentProduct.category)) {
+            let currentProducts = JSON.parse(STORAGE.getFromStorage(currentProduct.category));
+
+            let productPosition = getProductPositionInCart(currentProducts, currentProduct);
+            if (productPosition != -1) {
+                currentProducts[productPosition].quantity--;
+
+                if (currentProducts[productPosition].quantity == 0) {
+                    currentProducts.splice(productPosition, 1)
+                }
+
+                if (currentProducts.length == 0) {
+                    deleteCategoryFromStorage(currentProduct.category);
+                }
+                STORAGE.setToStorage(currentProduct.category, JSON.stringify(currentProducts));
+            }
+            Cart.setCartPrice(Cart.minusCartPrice(parseInt(currentProduct.price)));
+        }
+
+    },
     plusProduct(arrayProducts) {
         document.querySelector('.product_block').addEventListener('click', e => {
             if (e.target.classList.contains('plus')) {
@@ -100,7 +137,24 @@ export default {
                     number_block.innerHTML = this.getProductQuantity(id, currentProduct.category);
                     setCategoryToStorage(arrayProducts.category_name[0].name, currentProduct.category);
                 }
-                
+            }
+        })
+    },
+    minusProduct(arrayProducts) {
+        document.querySelector('.product_block').addEventListener('click', e => {
+            if (e.target.classList.contains('minus')) {
+                const id = e.target.getAttribute('data-id');
+                const number_block = e.path[2].querySelector('.number');
+
+                let currentProduct = getCurrentProduct(id, arrayProducts.products);
+
+                let quantity = this.getProductQuantity(id, currentProduct.category);
+
+                if (currentProduct && quantity != Constans.MIN_QUANTITY) {
+                    this.minusCurrentProductFromStorageCart(currentProduct);
+                    number_block.innerHTML = this.getProductQuantity(id, currentProduct.category);
+                }
+
                 console.log(JSON.parse(STORAGE.getFromStorage(currentProduct.category)));
                 console.log(JSON.parse(STORAGE.getFromStorage('categories_in_cart')));
             }

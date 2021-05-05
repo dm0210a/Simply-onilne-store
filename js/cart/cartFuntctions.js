@@ -8,7 +8,7 @@ export default {
     plusCartPrice(price) {
         return parseInt(this.getCartPrice()) + price;
     },
-    minusCartPrice() {
+    minusCartPrice(price) {
         return parseInt(STORAGE.getFromStorage('cart_price')) - price;
     },
     getCartPrice() {
