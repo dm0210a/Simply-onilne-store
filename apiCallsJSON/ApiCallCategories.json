@@ -2,147 +2,147 @@
 
     "categories": [
         {
-            "id": "category1",
-            "title": "Category1",
-            "icon": "./assets/img/img1.png"
+            "id": "tshirts",
+            "title": "T - Shirts",
+            "icon": "./assets/img/tshirts.png"
            
         },
         {
-            "id": "category2",
-            "title": "Category2",
-            "icon": "./assets/img/img1.png"
+            "id": "caps",
+            "title": "Caps",
+            "icon": "./assets/img/caps.png"
            
         },
         {
-            "id": "category3",
-            "title": "Category3",
-            "icon": "./assets/img/img1.png"
+            "id": "cards",
+            "title": "Cards",
+            "icon": "./assets/img/cards.png"
            
         },
         {
-            "id": "category4",
-            "title": "Category4",
-            "icon": "./assets/img/img1.png"
+            "id": "toys",
+            "title": "Toys",
+            "icon": "./assets/img/toys.png"
            
         },
         {
-            "id": "category5",
-            "title": "Category5",
-            "icon": "./assets/img/img1.png"
+            "id": "magnets",
+            "title": "Magnets",
+            "icon": "./assets/img/magnets.png"
            
         },
         {
-            "id": "category6",
-            "title": "Category6",
-            "icon": "./assets/img/img1.png"
+            "id": "penspencils",
+            "title": "Pens & Pencils",
+            "icon": "./assets/img/penspencils.png"
            
         },
         {
-            "id": "category7",
-            "title": "Category7",
-            "icon": "./assets/img/img1.png"
+            "id": "bags",
+            "title": "Bags",
+            "icon": "./assets/img/bags.png"
            
         },
         {
-            "id": "category8",
-            "title": "Category8",
-            "icon": "./assets/img/img1.png"
+            "id": "notebooks",
+            "title": "Notebooks",
+            "icon": "./assets/img/notebooks.png"
            
         },
         {
-            "id": "category9",
-            "title": "Category9",
-            "icon": "./assets/img/img1.png"
+            "id": "scrumscards",
+            "title": "Scrum Cards",
+            "icon": "./assets/img/scrumscards.png"
            
         },
         {
-            "id": "category10",
-            "title": "Category10",
-            "icon": "./assets/img/img1.png"
+            "id": "bicycles",
+            "title": "Bicycles",
+            "icon": "./assets/img/bicycles.png"
            
         },
         {
-            "id": "category11",
-            "title": "Category11",
-            "icon": "./assets/img/img1.png"
+            "id": "trampolines",
+            "title": "Trampolines",
+            "icon": "./assets/img/trampolines.png"
            
         },
         {
-            "id": "category12",
-            "title": "Category12",
-            "icon": "./assets/img/img1.png"
+            "id": "tv",
+            "title": "TV",
+            "icon": "./assets/img/tv.png"
            
         },
         {
-            "id": "category13",
-            "title": "Category13",
-            "icon": "./assets/img/img1.png"
+            "id": "books",
+            "title": "Books",
+            "icon": "./assets/img/books.png"
            
         },
         {
-            "id": "category14",
-            "title": "Category14",
-            "icon": "./assets/img/img1.png"
+            "id": "laptops",
+            "title": "Laptops",
+            "icon": "./assets/img/laptops.png"
            
         },
         {
-            "id": "category15",
-            "title": "Category15",
-            "icon": "./assets/img/img1.png"
+            "id": "shorts",
+            "title": "Shorts",
+            "icon": "./assets/img/shorts.png"
            
         },
         {
-            "id": "category16",
-            "title": "Category16",
-            "icon": "./assets/img/img1.png"
+            "id": "boots",
+            "title": "Boots",
+            "icon": "./assets/img/boots.png"
            
         },
         {
-            "id": "category17",
-            "title": "Category17",
-            "icon": "./assets/img/img1.png"
+            "id": "flippers",
+            "title": "Flippers",
+            "icon": "./assets/img/flippers.png"
            
         },
         {
-            "id": "category18",
-            "title": "Category18",
-            "icon": "./assets/img/img1.png"
+            "id": "balls",
+            "title": "Balls",
+            "icon": "./assets/img/balls.png"
            
         },
         {
-            "id": "category19",
-            "title": "Category19",
-            "icon": "./assets/img/img1.png"
+            "id": "jackets",
+            "title": "Jackets",
+            "icon": "./assets/img/jackets.png"
            
         },
         {
-            "id": "category20",
-            "title": "Category20",
-            "icon": "./assets/img/img1.png"
+            "id": "shirts",
+            "title": "Shirts",
+            "icon": "./assets/img/shirts.png"
            
         },
         {
-            "id": "category21",
-            "title": "Category21",
-            "icon": "./assets/img/img1.png"
+            "id": "knifes",
+            "title": "Knifes",
+            "icon": "./assets/img/knifes.png"
            
         },
         {
-            "id": "category22",
-            "title": "Category22",
-            "icon": "./assets/img/img1.png"
+            "id": "plates",
+            "title": "Plates",
+            "icon": "./assets/img/plates.png"
            
         },
         {
-            "id": "category23",
-            "title": "Category23",
-            "icon": "./assets/img/img1.png"
+            "id": "socks",
+            "title": "Socks",
+            "icon": "./assets/img/socks.png"
            
         },
         {
-            "id": "category24",
-            "title": "Category24",
-            "icon": "./assets/img/img1.png"
+            "id": "sunglasses",
+            "title": "Sun Glasses",
+            "icon": "./assets/img/sunglasses.png"
            
         }
     ]

@@ -1,5 +1,7 @@
+import Cart from '../cart/cartFuntctions.js'
+
 export default {
-    render(data,cartPrice) {
+    render(data) {
         return (`
         <div class="content_block">
             <div class="title_block">
@@ -8,10 +10,10 @@ export default {
             <div class="cart">
                 <div class="cart_block">
                     <div>
-                        <img src="./img/cart.png" alt="shoping cart" />
+                        <img src="../assets/img/cart.png" alt="shoping cart" />
                     </div>
                     <div class="cart_price">
-                        $${cartPrice}
+                        $${Cart.getCartPrice()}
                     </div>
                 </div>
             </div>
