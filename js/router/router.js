@@ -13,7 +13,7 @@ function handleHash() {
         const routeName = name + 'Route';
         Controller[routeName](params);
     }
-    else{
+    else {
         Controller['mainRoute'](params);
     }
 }

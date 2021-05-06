@@ -241,13 +241,125 @@ body{
     right: 480px;   
 }
 
-.minus{
-    width: 30px;
-    height: 30px;
-    background: red;
+
+#productPage .left{
+    display: flex;
 }
-.plus{
-    width: 30px;
-    height: 30px;
-    background: green;
+#productPage .title_block h1{
+    font-size: 3.5em;
+    margin-left: 35px;
+}
+#productPage .content_block{
+    padding-left: 3vw;
+}
+#productPage #goBack{
+    padding-top: 18px;
+}
+#productPage .product_block{
+    margin-top: 39px;
+    margin-left: 8.8vw;
+    width: calc(100% - 8.8vw);
+    height: 505px;
+    overflow: auto;
+    display: flex;
+}
+#productPage .product_item {
+    width: 360px;
+    height: 460px;
+    margin-right: 10px;
+    position: relative;
+}
+#productPage .product_image {
+    width: 360px;
+    height: 370px;
+}
+#productPage .product_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#productPage .product_title{
+    position: absolute;
+    bottom: 90px;
+    height: 40px;
+    background: rgb(255 255 255 / 80%);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+#productPage .product_title span {
+    color: #010101;
+    font-size: 1.3em;
+    font-family: 'Segoe UI Regular';
+}
+#productPage .product_title .price {
+    color: #d9644a;
+    font-size: 2em;
+    font-family: 'Segoe UI Regular';
+}
+#productPage .product_navigation{
+    display: flex;
+    height: 80px;
+    margin-top: 10px;
+    width: 100%;
+    background: #4ea686;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+#productPage .navbtn{
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+#productPage .minus::after{
+    content: '-';
+    top: -11px;
+    left: 10px;
+    font-size: 2.3em;
+    font-family: 'Segoe UI Regular';
+    color: #fff;
+    position: absolute;
+}
+#productPage .plus::after{
+    content: '+';
+    top: -11px;
+    left: 5.5px;
+    font-size: 2.3em;
+    font-family: 'Segoe UI Regular';
+    color: #fff;
+    position: absolute;
+}
+#productPage .quantity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#productPage .quantity .amount{
+    font-family: 'Segoe UI Light';
+    font-weight: 300;
+    font-size: 0.92em;
+    color: rgb(255 255 255 / 80%);
+}
+#productPage .quantity .number{
+    font-family: 'Segoe UI Regular';
+    font-size: 2em;
+    color: #fff;
+    height: 54px;
+}
+#productPage .product_block::-webkit-scrollbar{ 
+    width: 0; 
+    height: 45px;
+    
+}
+#productPage .product_image.productInCart{
+    border: 2px solid #d9644a;
 }

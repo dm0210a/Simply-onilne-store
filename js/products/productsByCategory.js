@@ -20,14 +20,7 @@ export default {
         goBack.addEventListener('click', () => {
             window.history.back()
         })
-
-
         Product.plusProduct(arrayProducts);
         Product.minusProduct(arrayProducts);
-        
-        
-        
-
-
     }
 }

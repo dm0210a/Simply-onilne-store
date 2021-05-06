@@ -71,6 +71,18 @@ function deleteCategoryFromStorage(hash) {
 
 }
 
+function addBorder(elemet) {
+    if (!elemet.querySelector('.productInCart')) {
+        elemet.querySelector('.product_image').classList.add('productInCart')
+    }
+}
+function deleteBorder(elemet) {
+    if (elemet.querySelector('.productInCart')) {
+        elemet.querySelector('.product_image').classList.remove('productInCart')
+    }
+}
+
+
 export default {
     getProductQuantity(id, category) {
         let arrayProducts = JSON.parse(STORAGE.getFromStorage(category));
@@ -136,6 +148,7 @@ export default {
                     this.addCurrentProductToStorageCart(currentProduct);
                     number_block.innerHTML = this.getProductQuantity(id, currentProduct.category);
                     setCategoryToStorage(arrayProducts.category_name[0].name, currentProduct.category);
+                    addBorder(e.path[2]);
                 }
             }
         })
@@ -149,14 +162,14 @@ export default {
                 let currentProduct = getCurrentProduct(id, arrayProducts.products);
 
                 let quantity = this.getProductQuantity(id, currentProduct.category);
-
+                if (quantity == Constans.MIN_QUANTITY + 1) {
+                    deleteBorder(e.path[2]);
+                }
                 if (currentProduct && quantity != Constans.MIN_QUANTITY) {
                     this.minusCurrentProductFromStorageCart(currentProduct);
                     number_block.innerHTML = this.getProductQuantity(id, currentProduct.category);
                 }
 
-                console.log(JSON.parse(STORAGE.getFromStorage(currentProduct.category)));
-                console.log(JSON.parse(STORAGE.getFromStorage('categories_in_cart')));
             }
         })
     }

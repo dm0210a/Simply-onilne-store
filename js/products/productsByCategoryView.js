@@ -16,41 +16,56 @@ export default {
 
 
     render(data) {
-        return (`
+        return (`<div id="productPage">
         <div class="content_block">
-        <button id="goBack">BACK</button>
-            <div class="title_block">
-                <h1>${data.category_name[0].name}</h1>
+            <div class="left">
+                <div id="goBack">
+                    <img src="../assets/img/backbutton.png" alt="back"/>
+                </div>
+                <div class="title_block">
+                    <h1>${data.category_name[0].name}</h1>
+                </div>
             </div>
-            <div class="cart">
-                <div class="cart_block">
-                    <div>
-                        <img src="../assets/img/cart.png" alt="shoping cart" />
-                    </div>
-                    <div class="cart_price">
+            <div class="right">
+                <div class="cart">
+                    <div class="cart_block">
+                        <div>
+                            <img src="../assets/img/cart.png" alt="shoping cart" />
+                        </div>
+                        <div class="cart_price">
                         $${Cart.getCartPrice()}
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="category_block product_block">
+        <div class="product_block">
         ${data.products.map((element, index) => (
             ` 
-            <div class="category_item1 ${existQuantity(element) ? 'productInCart' : ''}" data-id="${element.id}">
+            <div class="product_item" data-id="${element.id}">
                
-                    <div class="category_image ">
+                    <div class="product_image ${existQuantity(element) ? 'productInCart' : ''}">
                         <img src="${element.icon}" alt="${element.title}" />
                     </div>
-                    <div class="catergory_title">
-                        <span>${element.title}</span> 
-                        <div class="minus" data-id="${element.id}">-</div>
-                        <span class="number">${existQuantity(element) ? existQuantity(element) : 0}</span>
-                        <div class="plus" data-id="${element.id}">+</div>  
+                    <div class="product_title">
+                        <span>${element.title}</span>
+                        <span class="price">$${element.price}</span> 
+                    </div>
+                    <div class="product_navigation">
+                        <div class="navbtn minus" data-id="${element.id}">
+                        </div>
+                        <div class="quantity">
+                            <span class="amount">amount</span>
+                            <span class="number">${existQuantity(element) ? existQuantity(element) : 0}</span>
+                        </div>
+                        <div class="navbtn plus" data-id="${element.id}">
+                        </div>  
                     </div>
                
             </div>
             `
         )).join('')}
-        </div>`);
+        </div>
+    </div>`);
     }
 }
