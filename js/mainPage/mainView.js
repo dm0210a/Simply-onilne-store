@@ -11,6 +11,7 @@ export default {
                     <h1>Shopping Cart — Make Purchases Now!</h1>
                 </div>
                 <div class="cart">
+                <a href="#cart">
                     <div class="cart_block">
                         <div>
                             <img src="../assets/img/cart.png" alt="shoping cart" />
@@ -19,6 +20,7 @@ export default {
                             $${Cart.getCartPrice()}
                         </div>
                     </div>
+                </a>
                 </div>
             </div>
             <div class="category_block" id="categories">
