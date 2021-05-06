@@ -27,6 +27,7 @@ export default {
                 </div>
             </div>
             <div class="right">
+                <a href="#cart">
                 <div class="cart">
                     <div class="cart_block">
                         <div>
@@ -37,6 +38,7 @@ export default {
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
         <div class="product_block">

@@ -1,5 +1,6 @@
 import View from './productsByCategoryView.js';
 import Product from './productsFunctions.js';
+import * as Helpers from '../utils/helpers.js'
 
 const mainBlock = document.querySelector('#main');
 let arrayProducts = [];
@@ -17,10 +18,8 @@ export default {
         mainBlock.innerHTML = View.render(arrayProducts);
 
         const goBack = mainBlock.querySelector('#goBack');
-        goBack.addEventListener('click', () => {
-            window.history.back()
-        })
-        
+        Helpers.goBack(goBack);
+
         Product.plusProduct(arrayProducts);
         Product.minusProduct(arrayProducts);
     }

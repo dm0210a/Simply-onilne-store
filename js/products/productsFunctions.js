@@ -2,6 +2,7 @@ import STORAGE from '../utils/localStorage.js'
 import * as Constans from '../utils/constans.js'
 import Cart from '../cart/cartFuntctions.js'
 
+
 function addNewProducts(currentProduct) {
     currentProduct['quantity'] = 1;
 
@@ -55,21 +56,7 @@ function setCategoryToStorage(name, hash) {
     }
 }
 
-function deleteCategoryFromStorage(hash) {
-    let existingCategories = JSON.parse(STORAGE.getFromStorage('categories_in_cart'));
 
-    if (existingCategories) {
-
-        for (let i = 0; i < existingCategories.length; i++) {
-            if (existingCategories[i].hash == hash) {
-                existingCategories.splice(i, 1);
-                break;
-            }
-        }
-        STORAGE.setToStorage('categories_in_cart', JSON.stringify(existingCategories));
-    }
-
-}
 
 function addBorder(elemet) {
     if (!elemet.querySelector('.productInCart')) {
@@ -84,6 +71,21 @@ function deleteBorder(elemet) {
 
 
 export default {
+    deleteCategoryFromStorage(hash) {
+        let existingCategories = JSON.parse(STORAGE.getFromStorage('categories_in_cart'));
+    
+        if (existingCategories) {
+    
+            for (let i = 0; i < existingCategories.length; i++) {
+                if (existingCategories[i].hash == hash) {
+                    existingCategories.splice(i, 1);
+                    break;
+                }
+            }
+            STORAGE.setToStorage('categories_in_cart', JSON.stringify(existingCategories));
+        }
+    
+    },
     getProductQuantity(id, category) {
         let arrayProducts = JSON.parse(STORAGE.getFromStorage(category));
         if (arrayProducts) {
@@ -92,7 +94,7 @@ export default {
         } else {
             return 0;
         }
-
+    
     },
     addCurrentProductToStorageCart(currentProduct) {
         if (STORAGE.getFromStorage(currentProduct.category)) {
@@ -126,7 +128,7 @@ export default {
                 }
 
                 if (currentProducts.length == 0) {
-                    deleteCategoryFromStorage(currentProduct.category);
+                    this.deleteCategoryFromStorage(currentProduct.category);
                 }
                 STORAGE.setToStorage(currentProduct.category, JSON.stringify(currentProducts));
             }
