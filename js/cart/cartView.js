@@ -53,6 +53,9 @@ export default {
                                             <div class="product_name">
                                                <span>Name</span><span>${product.title}</span>
                                             </div>
+                                            <div class="cart_price_of_one">
+                                            <span>Price</span><span>$${product.price}</span>
+                                            </div>
                                             <div class="amount">
                                             <span>Amount</span><span class="number">${product.quantity}</span>
                                             </div>
@@ -73,15 +76,12 @@ export default {
             )).join('')}
                 </div>
                 <div class="cart_info">
-                    <div class="cart_fullprice">
-                     Price: $${Cart.getCartPrice()}
-                    </div>
                     <div class="cart_info_nav">
                         <div class="navbtn clear">
                          Clear
                         </div>
                         <div class="navbtn buy">
-                            Buy
+                        Price: $${Cart.getCartPrice()} Buy
                         </div>
                     </div>
                 </div>

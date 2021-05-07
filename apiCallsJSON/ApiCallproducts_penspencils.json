@@ -1,0 +1,90 @@
+{
+    "category_name":[
+        {
+            "name":"Pens & Pencils"
+        }
+    ],
+
+    "products": [
+        {
+            "id": "61",
+            "title": "Pens & Pencils 1",
+            "icon": "./assets/img/penspencils/1.png",
+            "category":"penspencils",
+            "price":"100"
+           
+        },
+        {
+            "id": "62",
+            "title": "Pens & Pencils 2",
+             "icon": "./assets/img/penspencils/2.png",
+            "category":"penspencils",
+            "price":"150"
+           
+        },
+        {
+            "id": "63",
+            "title": "Pens & Pencils 3",
+             "icon": "./assets/img/penspencils/3.png",
+            "category":"penspencils",
+            "price":"200"
+           
+        },
+        {
+            "id": "64",
+            "title": "Pens & Pencils 4",
+             "icon": "./assets/img/penspencils/4.png",
+            "category":"penspencils",
+            "price":"300"
+           
+        },
+        {
+            "id": "65",
+            "title": "Pens & Pencils 5",
+             "icon": "./assets/img/penspencils/5.png",
+            "category":"penspencils",
+            "price":"160"
+           
+        },
+        {
+            "id": "66",
+            "title": "Pens & Pencils 6",
+             "icon": "./assets/img/penspencils/1.png",
+            "category":"penspencils",
+            "price":"210"
+           
+        },
+        {
+            "id": "67",
+            "title": "Pens & Pencils 7",
+             "icon": "./assets/img/penspencils/2.png",
+            "category":"penspencils",
+            "price":"230"
+           
+        },
+        {
+            "id": "68",
+            "title": "Pens & Pencils 8",
+             "icon": "./assets/img/penspencils/3.png",
+            "category":"penspencils",
+            "price":"240"
+           
+        },
+        {
+            "id": "69",
+            "title": "Pens & Pencils 9",
+             "icon": "./assets/img/penspencils/4.png",
+            "category":"penspencils",
+            "price":"500"
+           
+        },
+        {
+            "id": "70",
+            "title": "Pens & Pencils 10",
+             "icon": "./assets/img/penspencils/5.png",
+            "category":"penspencils",
+            "price":"100"
+           
+        }
+    ]
+}

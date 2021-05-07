@@ -427,7 +427,9 @@ body{
 #cart .amount{
     padding-top: 25px;
 }
-
+#cart .cart_price_of_one{
+    padding-top: 25px;
+}
 #cart .cart_product_price{
     padding-top: 25px;
 }
@@ -524,6 +526,7 @@ body{
 #cart .navbtn.buy{
     border:3px solid#4ea686;;
     color: #4ea686;
+    width: 565px;
 }
 #cart .cart_blocks h1{
     font-size: 3em;

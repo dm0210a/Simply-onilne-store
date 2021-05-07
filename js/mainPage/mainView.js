@@ -1,5 +1,5 @@
 import Cart from '../cart/cartFuntctions.js';
-import * as constans from '../utils/constans.js'
+import * as constans from '../utils/constans.js';
 
 export default {
     render(data, elementsToShow) {

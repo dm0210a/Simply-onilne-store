@@ -1,0 +1,90 @@
+{
+    "category_name":[
+        {
+            "name":"Magnets 2"
+        }
+    ],
+
+    "products": [
+        {
+            "id": "m51",
+            "title": "Magnets2 1",
+            "icon": "./assets/img/magnets/1.png",
+            "category":"magnets2",
+            "price":"100"
+           
+        },
+        {
+            "id": "m52",
+            "title": "Magnets2 2",
+             "icon": "./assets/img/magnets/2.png",
+            "category":"magnets2",
+            "price":"150"
+           
+        },
+        {
+            "id": "m53",
+            "title": "Magnets2 3",
+             "icon": "./assets/img/magnets/3.png",
+            "category":"magnets2",
+            "price":"200"
+           
+        },
+        {
+            "id": "m54",
+            "title": "Magnets2 4",
+             "icon": "./assets/img/magnets/4.png",
+            "category":"magnets2",
+            "price":"300"
+           
+        },
+        {
+            "id": "m55",
+            "title": "Magnets2 5",
+             "icon": "./assets/img/magnets/5.png",
+            "category":"magnets2",
+            "price":"160"
+           
+        },
+        {
+            "id": "m56",
+            "title": "Magnets2 6",
+             "icon": "./assets/img/magnets/1.png",
+            "category":"magnets2",
+            "price":"210"
+           
+        },
+        {
+            "id": "m57",
+            "title": "Magnets2 7",
+             "icon": "./assets/img/magnets/2.png",
+            "category":"magnets2",
+            "price":"230"
+           
+        },
+        {
+            "id": "m58",
+            "title": "Magnets2 8",
+             "icon": "./assets/img/magnets/3.png",
+            "category":"magnets2",
+            "price":"240"
+           
+        },
+        {
+            "id": "m59",
+            "title": "Magnets2 9",
+             "icon": "./assets/img/magnets/4.png",
+            "category":"magnets2",
+            "price":"500"
+           
+        },
+        {
+            "id": "m60",
+            "title": "Magnets2 10",
+             "icon": "./assets/img/magnets/5.png",
+            "category":"magnets2",
+            "price":"100"
+           
+        }
+    ]
+}

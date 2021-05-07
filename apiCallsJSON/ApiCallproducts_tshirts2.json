@@ -1,88 +1,88 @@
 {
     "category_name":[
         {
-            "name":"T - Shirts"
+            "name":"T - Shirts 2"
         }
     ],
 
     "products": [
         {
-            "id": "1",
-            "title": "T-Shirt 1",
+            "id": "t1",
+            "title": "T-Shirt2 1",
             "icon": "./assets/img/tshirts/1.png",
-            "category":"tshirts",
+            "category":"tshirts2",
             "price":"100"
            
         },
         {
-            "id": "2",
-            "title": "T-Shirt 2",
+            "id": "t2",
+            "title": "T-Shirt2 2",
              "icon": "./assets/img/tshirts/2.png",
-            "category":"tshirts",
+            "category":"tshirts2",
             "price":"150"
            
         },
         {
-            "id": "3",
-            "title": "T-Shirt 3",
+            "id": "t3",
+            "title": "T-Shirt2 3",
              "icon": "./assets/img/tshirts/3.png",
-            "category":"tshirts",
+            "category":"tshirts2",
             "price":"200"
            
         },
         {
-            "id": "4",
-            "title": "T-Shirt 4",
+            "id": "t4",
+            "title": "T-Shirt2 4",
              "icon": "./assets/img/tshirts/4.png",
-            "category":"tshirts",
+            "category":"tshirts2",
             "price":"300"
            
         },
         {
-            "id": "5",
-            "title": "T-Shirt 5",
+            "id": "t5",
+            "title": "T-Shirt2 5",
              "icon": "./assets/img/tshirts/5.png",
-            "category":"tshirts",
+            "category":"tshirts2",
             "price":"160"
            
         },
         {
-            "id": "6",
-            "title": "T-Shirt 6",
+            "id": "t6",
+            "title": "T-Shirt2 6",
              "icon": "./assets/img/tshirts/1.png",
-            "category":"tshirts",
+            "category":"tshirts2",
             "price":"210"
            
         },
         {
-            "id": "7",
-            "title": "T-Shirt 7",
+            "id": "t7",
+            "title": "T-Shirt2 7",
              "icon": "./assets/img/tshirts/2.png",
-            "category":"tshirts",
+            "category":"tshirts2",
             "price":"230"
            
         },
         {
-            "id": "8",
-            "title": "T-Shirt 8",
+            "id": "t8",
+            "title": "T-Shirt2 8",
              "icon": "./assets/img/tshirts/3.png",
-            "category":"tshirts",
+            "category":"tshirts2",
             "price":"240"
            
         },
         {
-            "id": "9",
-            "title": "T-Shirt 9",
+            "id": "t9",
+            "title": "T-Shirt2 9",
              "icon": "./assets/img/tshirts/4.png",
-            "category":"tshirts",
+            "category":"tshirts2",
             "price":"500"
            
         },
         {
-            "id": "10",
-            "title": "T-Shirt 10",
+            "id": "t10",
+            "title": "T-Shirt2 10",
              "icon": "./assets/img/tshirts/5.png",
-            "category":"tshirts",
+            "category":"tshirts2",
             "price":"100"
            
         }

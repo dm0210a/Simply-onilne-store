@@ -55,94 +55,94 @@
             "icon": "./assets/img/scrumscards.png"
            
         },
-        {
-            "id": "bicycles",
-            "title": "Bicycles",
-            "icon": "./assets/img/bicycles.png"
+       {
+            "id": "tshirts2",
+            "title": "T - Shirts 2",
+            "icon": "./assets/img/tshirts.png"
            
         },
         {
-            "id": "trampolines",
-            "title": "Trampolines",
-            "icon": "./assets/img/trampolines.png"
+            "id": "caps2",
+            "title": "Caps 2",
+            "icon": "./assets/img/caps.png"
            
         },
         {
-            "id": "tv",
-            "title": "TV",
-            "icon": "./assets/img/tv.png"
+            "id": "cards2",
+            "title": "Cards 2",
+            "icon": "./assets/img/cards.png"
            
         },
         {
-            "id": "books",
-            "title": "Books",
-            "icon": "./assets/img/books.png"
+            "id": "toys2",
+            "title": "Toys 2",
+            "icon": "./assets/img/toys.png"
            
         },
         {
-            "id": "laptops",
-            "title": "Laptops",
-            "icon": "./assets/img/laptops.png"
+            "id": "magnets2",
+            "title": "Magnets 2",
+            "icon": "./assets/img/magnets.png"
            
         },
         {
-            "id": "shorts",
-            "title": "Shorts",
-            "icon": "./assets/img/shorts.png"
+            "id": "penspencils2",
+            "title": "Pens & Pencils 2",
+            "icon": "./assets/img/penspencils.png"
            
         },
         {
-            "id": "boots",
-            "title": "Boots",
-            "icon": "./assets/img/boots.png"
+            "id": "bags2",
+            "title": "Bags 2",
+            "icon": "./assets/img/bags.png"
            
         },
         {
-            "id": "flippers",
-            "title": "Flippers",
-            "icon": "./assets/img/flippers.png"
+            "id": "notebooks2",
+            "title": "Notebooks 2",
+            "icon": "./assets/img/notebooks.png"
            
         },
         {
-            "id": "balls",
-            "title": "Balls",
-            "icon": "./assets/img/balls.png"
+            "id": "scrumscards2",
+            "title": "Scrum Cards 2",
+            "icon": "./assets/img/scrumscards.png"
+           
+        },
+		{
+            "id": "tshirts3",
+            "title": "T - Shirts 3",
+            "icon": "./assets/img/tshirts.png"
            
         },
         {
-            "id": "jackets",
-            "title": "Jackets",
-            "icon": "./assets/img/jackets.png"
+            "id": "caps3",
+            "title": "Caps 3",
+            "icon": "./assets/img/caps.png"
            
         },
         {
-            "id": "shirts",
-            "title": "Shirts",
-            "icon": "./assets/img/shirts.png"
+            "id": "cards3",
+            "title": "Cards 3",
+            "icon": "./assets/img/cards.png"
            
         },
         {
-            "id": "knifes",
-            "title": "Knifes",
-            "icon": "./assets/img/knifes.png"
+            "id": "toys3",
+            "title": "Toys 3",
+            "icon": "./assets/img/toys.png"
            
         },
         {
-            "id": "plates",
-            "title": "Plates",
-            "icon": "./assets/img/plates.png"
+            "id": "magnets3",
+            "title": "Magnets 3",
+            "icon": "./assets/img/magnets.png"
            
         },
         {
-            "id": "socks",
-            "title": "Socks",
-            "icon": "./assets/img/socks.png"
-           
-        },
-        {
-            "id": "sunglasses",
-            "title": "Sun Glasses",
-            "icon": "./assets/img/sunglasses.png"
+            "id": "penspencils3",
+            "title": "Pens & Pencils 3",
+            "icon": "./assets/img/penspencils.png"
            
         }
     ]

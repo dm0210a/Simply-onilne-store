@@ -1,88 +1,88 @@
 {
     "category_name":[
         {
-            "name":"Caps"
+            "name":"Caps 2"
         }
     ],
 
     "products": [
         {
-            "id": "21",
-            "title": "Cap 1",
+            "id": "221",
+            "title": "Cap2 1",
             "icon": "./assets/img/caps/1.png",
-            "category":"caps",
+            "category":"caps2",
             "price":"100"
            
         },
         {
-            "id": "22",
-            "title": "Cap 2",
+            "id": "222",
+            "title": "Cap2 2",
              "icon": "./assets/img/caps/2.png",
-            "category":"caps",
+            "category":"caps2",
             "price":"150"
            
         },
         {
-            "id": "23",
-            "title": "Cap 3",
+            "id": "223",
+            "title": "Cap2 3",
              "icon": "./assets/img/caps/3.png",
-            "category":"caps",
+            "category":"caps2",
             "price":"200"
            
         },
         {
-            "id": "24",
-            "title": "Cap 4",
+            "id": "224",
+            "title": "Cap2 4",
              "icon": "./assets/img/caps/4.png",
-            "category":"caps",
+            "category":"caps2",
             "price":"300"
            
         },
         {
-            "id": "25",
-            "title": "Cap 5",
+            "id": "225",
+            "title": "Cap2 5",
              "icon": "./assets/img/caps/5.png",
-            "category":"caps",
+            "category":"caps2",
             "price":"160"
            
         },
         {
-            "id": "26",
-            "title": "Cap 6",
+            "id": "226",
+            "title": "Cap2 6",
              "icon": "./assets/img/caps/1.png",
-            "category":"caps",
+            "category":"caps2",
             "price":"210"
            
         },
         {
-            "id": "27",
-            "title": "Cap 7",
+            "id": "227",
+            "title": "Cap2 7",
              "icon": "./assets/img/caps/2.png",
-            "category":"caps",
+            "category":"caps2",
             "price":"230"
            
         },
         {
-            "id": "28",
-            "title": "Cap 8",
+            "id": "228",
+            "title": "Cap2 8",
              "icon": "./assets/img/caps/3.png",
-            "category":"caps",
+            "category":"caps2",
             "price":"240"
            
         },
         {
-            "id": "29",
-            "title": "Cap 9",
+            "id": "229",
+            "title": "Cap2 9",
              "icon": "./assets/img/caps/4.png",
-            "category":"caps",
+            "category":"caps2",
             "price":"500"
            
         },
         {
-            "id": "30",
-            "title": "Cap 10",
+            "id": "230",
+            "title": "Cap2 10",
              "icon": "./assets/img/caps/5.png",
-            "category":"caps",
+            "category":"caps2",
             "price":"100"
            
         }

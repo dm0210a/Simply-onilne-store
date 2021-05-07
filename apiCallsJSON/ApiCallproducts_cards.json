@@ -1,0 +1,90 @@
+{
+    "category_name":[
+        {
+            "name":"Cards"
+        }
+    ],
+
+    "products": [
+        {
+            "id": "31",
+            "title": "Card 1",
+            "icon": "./assets/img/cards/1.png",
+            "category":"cards",
+            "price":"100"
+           
+        },
+        {
+            "id": "32",
+            "title": "Card 2",
+             "icon": "./assets/img/cards/2.png",
+            "category":"cards",
+            "price":"150"
+           
+        },
+        {
+            "id": "33",
+            "title": "Card 3",
+             "icon": "./assets/img/cards/3.png",
+            "category":"cards",
+            "price":"200"
+           
+        },
+        {
+            "id": "34",
+            "title": "Card 4",
+             "icon": "./assets/img/cards/4.png",
+            "category":"cards",
+            "price":"300"
+           
+        },
+        {
+            "id": "35",
+            "title": "Card 5",
+             "icon": "./assets/img/cards/5.png",
+            "category":"cards",
+            "price":"160"
+           
+        },
+        {
+            "id": "36",
+            "title": "Card 6",
+             "icon": "./assets/img/cards/1.png",
+            "category":"cards",
+            "price":"210"
+           
+        },
+        {
+            "id": "37",
+            "title": "Card 7",
+             "icon": "./assets/img/cards/2.png",
+            "category":"cards",
+            "price":"230"
+           
+        },
+        {
+            "id": "38",
+            "title": "Card 8",
+             "icon": "./assets/img/cards/3.png",
+            "category":"cards",
+            "price":"240"
+           
+        },
+        {
+            "id": "39",
+            "title": "Card 9",
+             "icon": "./assets/img/cards/4.png",
+            "category":"cards",
+            "price":"500"
+           
+        },
+        {
+            "id": "40",
+            "title": "Card 10",
+             "icon": "./assets/img/cards/5.png",
+            "category":"cards",
+            "price":"100"
+           
+        }
+    ]
+}

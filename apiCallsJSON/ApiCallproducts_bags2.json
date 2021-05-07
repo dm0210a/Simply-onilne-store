@@ -1,0 +1,90 @@
+{
+    "category_name":[
+        {
+            "name":"Bags 2"
+        }
+    ],
+
+    "products": [
+        {
+            "id": "b71",
+            "title": "Bag2 1",
+            "icon": "./assets/img/bags/1.png",
+            "category":"bags2",
+            "price":"100"
+           
+        },
+        {
+            "id": "b72",
+            "title": "Bag2 2",
+             "icon": "./assets/img/bags/2.png",
+            "category":"bags2",
+            "price":"150"
+           
+        },
+        {
+            "id": "b73",
+            "title": "Bag2 3",
+             "icon": "./assets/img/bags/3.png",
+            "category":"bags2",
+            "price":"200"
+           
+        },
+        {
+            "id": "b74",
+            "title": "Bag2 4",
+             "icon": "./assets/img/bags/4.png",
+            "category":"bags2",
+            "price":"300"
+           
+        },
+        {
+            "id": "b75",
+            "title": "Bag2 5",
+             "icon": "./assets/img/bags/5.png",
+            "category":"bags2",
+            "price":"160"
+           
+        },
+        {
+            "id": "b76",
+            "title": "Bag2 6",
+             "icon": "./assets/img/bags/1.png",
+            "category":"bags2",
+            "price":"210"
+           
+        },
+        {
+            "id": "b77",
+            "title": "Bag2 7",
+             "icon": "./assets/img/bags/2.png",
+            "category":"bags2",
+            "price":"230"
+           
+        },
+        {
+            "id": "b78",
+            "title": "Bag2 8",
+             "icon": "./assets/img/bags/3.png",
+            "category":"bags2",
+            "price":"240"
+           
+        },
+        {
+            "id": "b79",
+            "title": "Bag2 9",
+             "icon": "./assets/img/bags/4.png",
+            "category":"bags2",
+            "price":"500"
+           
+        },
+        {
+            "id": "b80",
+            "title": "Bag2 10",
+             "icon": "./assets/img/bags/5.png",
+            "category":"bags2",
+            "price":"100"
+           
+        }
+    ]
+}

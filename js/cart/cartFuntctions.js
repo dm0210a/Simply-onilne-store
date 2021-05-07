@@ -124,6 +124,7 @@ export default {
     buttonBuy(element) {
         element.addEventListener('click', () => {
             let price = STORAGE.getFromStorage('cart_price');
+            console.log(`!!!Purchase is done!!!`);
             console.log(`Price of purchase: ${price}`);
             STORAGE.deleteAll();
             CartControll.render();

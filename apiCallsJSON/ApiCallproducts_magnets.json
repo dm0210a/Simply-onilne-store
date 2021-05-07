@@ -1,0 +1,90 @@
+{
+    "category_name":[
+        {
+            "name":"Magnets"
+        }
+    ],
+
+    "products": [
+        {
+            "id": "51",
+            "title": "Magnets 1",
+            "icon": "./assets/img/magnets/1.png",
+            "category":"magnets",
+            "price":"100"
+           
+        },
+        {
+            "id": "52",
+            "title": "Magnets 2",
+             "icon": "./assets/img/magnets/2.png",
+            "category":"magnets",
+            "price":"150"
+           
+        },
+        {
+            "id": "53",
+            "title": "Magnets 3",
+             "icon": "./assets/img/magnets/3.png",
+            "category":"magnets",
+            "price":"200"
+           
+        },
+        {
+            "id": "54",
+            "title": "Magnets 4",
+             "icon": "./assets/img/magnets/4.png",
+            "category":"magnets",
+            "price":"300"
+           
+        },
+        {
+            "id": "55",
+            "title": "Magnets 5",
+             "icon": "./assets/img/magnets/5.png",
+            "category":"magnets",
+            "price":"160"
+           
+        },
+        {
+            "id": "56",
+            "title": "Magnets 6",
+             "icon": "./assets/img/magnets/1.png",
+            "category":"magnets",
+            "price":"210"
+           
+        },
+        {
+            "id": "57",
+            "title": "Magnets 7",
+             "icon": "./assets/img/magnets/2.png",
+            "category":"magnets",
+            "price":"230"
+           
+        },
+        {
+            "id": "58",
+            "title": "Magnets 8",
+             "icon": "./assets/img/magnets/3.png",
+            "category":"magnets",
+            "price":"240"
+           
+        },
+        {
+            "id": "59",
+            "title": "Magnets 9",
+             "icon": "./assets/img/magnets/4.png",
+            "category":"magnets",
+            "price":"500"
+           
+        },
+        {
+            "id": "60",
+            "title": "Magnets 10",
+             "icon": "./assets/img/magnets/5.png",
+            "category":"magnets",
+            "price":"100"
+           
+        }
+    ]
+}

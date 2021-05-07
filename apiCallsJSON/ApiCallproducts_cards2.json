@@ -1,0 +1,90 @@
+{
+    "category_name":[
+        {
+            "name":"Cards 2"
+        }
+    ],
+
+    "products": [
+        {
+            "id": "c31",
+            "title": "Card2 1",
+            "icon": "./assets/img/cards/1.png",
+            "category":"cards2",
+            "price":"100"
+           
+        },
+        {
+            "id": "c32",
+            "title": "Card2 2",
+             "icon": "./assets/img/cards/2.png",
+            "category":"cards2",
+            "price":"150"
+           
+        },
+        {
+            "id": "c33",
+            "title": "Card2 3",
+             "icon": "./assets/img/cards/3.png",
+            "category":"cards2",
+            "price":"200"
+           
+        },
+        {
+            "id": "c34",
+            "title": "Card2 4",
+             "icon": "./assets/img/cards/4.png",
+            "category":"cards2",
+            "price":"300"
+           
+        },
+        {
+            "id": "c35",
+            "title": "Card2 5",
+             "icon": "./assets/img/cards/5.png",
+            "category":"cards2",
+            "price":"160"
+           
+        },
+        {
+            "id": "c36",
+            "title": "Card2 6",
+             "icon": "./assets/img/cards/1.png",
+            "category":"cards2",
+            "price":"210"
+           
+        },
+        {
+            "id": "c37",
+            "title": "Card2 7",
+             "icon": "./assets/img/cards/2.png",
+            "category":"cards2",
+            "price":"230"
+           
+        },
+        {
+            "id": "c38",
+            "title": "Card2 8",
+             "icon": "./assets/img/cards/3.png",
+            "category":"cards2",
+            "price":"240"
+           
+        },
+        {
+            "id": "c39",
+            "title": "Card2 9",
+             "icon": "./assets/img/cards/4.png",
+            "category":"cards2",
+            "price":"500"
+           
+        },
+        {
+            "id": "c40",
+            "title": "Card2 10",
+             "icon": "./assets/img/cards/5.png",
+            "category":"cards2",
+            "price":"100"
+           
+        }
+    ]
+}

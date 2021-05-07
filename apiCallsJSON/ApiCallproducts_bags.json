@@ -1,0 +1,90 @@
+{
+    "category_name":[
+        {
+            "name":"Bags"
+        }
+    ],
+
+    "products": [
+        {
+            "id": "71",
+            "title": "Bag 1",
+            "icon": "./assets/img/bags/1.png",
+            "category":"bags",
+            "price":"100"
+           
+        },
+        {
+            "id": "72",
+            "title": "Bag 2",
+             "icon": "./assets/img/bags/2.png",
+            "category":"bags",
+            "price":"150"
+           
+        },
+        {
+            "id": "73",
+            "title": "Bag 3",
+             "icon": "./assets/img/bags/3.png",
+            "category":"bags",
+            "price":"200"
+           
+        },
+        {
+            "id": "74",
+            "title": "Bag 4",
+             "icon": "./assets/img/bags/4.png",
+            "category":"bags",
+            "price":"300"
+           
+        },
+        {
+            "id": "75",
+            "title": "Bag 5",
+             "icon": "./assets/img/bags/5.png",
+            "category":"bags",
+            "price":"160"
+           
+        },
+        {
+            "id": "76",
+            "title": "Bag 6",
+             "icon": "./assets/img/bags/1.png",
+            "category":"bags",
+            "price":"210"
+           
+        },
+        {
+            "id": "77",
+            "title": "Bag 7",
+             "icon": "./assets/img/bags/2.png",
+            "category":"bags",
+            "price":"230"
+           
+        },
+        {
+            "id": "78",
+            "title": "Bag 8",
+             "icon": "./assets/img/bags/3.png",
+            "category":"bags",
+            "price":"240"
+           
+        },
+        {
+            "id": "79",
+            "title": "Bag 9",
+             "icon": "./assets/img/bags/4.png",
+            "category":"bags",
+            "price":"500"
+           
+        },
+        {
+            "id": "80",
+            "title": "Bag 10",
+             "icon": "./assets/img/bags/5.png",
+            "category":"bags",
+            "price":"100"
+           
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "category_name":[
+        {
+            "name":"Magnets 3"
+        }
+    ],
+
+    "products": [
+        {
+            "id": "mm51",
+            "title": "Magnets3 1",
+            "icon": "./assets/img/magnets/1.png",
+            "category":"magnets3",
+            "price":"100"
+           
+        },
+        {
+            "id": "mm52",
+            "title": "Magnets3 2",
+             "icon": "./assets/img/magnets/2.png",
+            "category":"magnets3",
+            "price":"150"
+           
+        },
+        {
+            "id": "mm53",
+            "title": "Magnets3 3",
+             "icon": "./assets/img/magnets/3.png",
+            "category":"magnets3",
+            "price":"200"
+           
+        },
+        {
+            "id": "mm54",
+            "title": "Magnets3 4",
+             "icon": "./assets/img/magnets/4.png",
+            "category":"magnets3",
+            "price":"300"
+           
+        },
+        {
+            "id": "mm55",
+            "title": "Magnets3 5",
+             "icon": "./assets/img/magnets/5.png",
+            "category":"magnets3",
+            "price":"160"
+           
+        },
+        {
+            "id": "mm56",
+            "title": "Magnets3 6",
+             "icon": "./assets/img/magnets/1.png",
+            "category":"magnets3",
+            "price":"210"
+           
+        },
+        {
+            "id": "mm57",
+            "title": "Magnets3 7",
+             "icon": "./assets/img/magnets/2.png",
+            "category":"magnets3",
+            "price":"230"
+           
+        },
+        {
+            "id": "mm58",
+            "title": "Magnets3 8",
+             "icon": "./assets/img/magnets/3.png",
+            "category":"magnets3",
+            "price":"240"
+           
+        },
+        {
+            "id": "mm59",
+            "title": "Magnets3 9",
+             "icon": "./assets/img/magnets/4.png",
+            "category":"magnets3",
+            "price":"500"
+           
+        },
+        {
+            "id": "mm60",
+            "title": "Magnets3 10",
+             "icon": "./assets/img/magnets/5.png",
+            "category":"magnets3",
+            "price":"100"
+           
+        }
+    ]
+}
